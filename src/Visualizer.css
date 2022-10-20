@@ -1,11 +1,36 @@
 .data-bar {
-    display: inline;
-    width: 2rem;
+    display: inline-flex;
+    font-size: small;
+    color: rgb(0, 0, 147);
     margin: .3rem;
     background-color: gold;
+    padding: 0.5rem;
+
 }
 
 .data-container {
     margin: auto;
     width: 50%;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    display: block;
+    height: 60px;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-flex;
+    color: whitesmoke;
+}
+.menu-divider {
+    display: inline-flex;
+    margin: auto 20px auto 20px;
+    height: 40px;
+    width: 5px;
+    background-color: white;
 }
