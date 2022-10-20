@@ -1,0 +1,11 @@
+.data-bar {
+    display: inline;
+    width: 2rem;
+    margin: .3rem;
+    background-color: gold;
+}
+
+.data-container {
+    margin: auto;
+    width: 50%;
+}
