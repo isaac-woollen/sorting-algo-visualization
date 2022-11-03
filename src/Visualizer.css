@@ -1,19 +1,18 @@
 .data-bar {
-    display: inline-flex;
     font-size: small;
     color: rgb(0, 0, 147);
     margin: .3rem;
-    background-color: gold;
-    padding: 0.5rem;
-
+    background-color: rgb(255, 236, 131);
+    width: 100%;
+    text-align: center;
 }
 
 .data-container {
+    display: flex;
+    justify-content: center;
     margin: auto;
-    width: 50%;
+    width: 75%;
     margin-top: 20px;
-    align-items: center;
-    text-align: center;
 }
 
 .menu {
@@ -33,4 +32,8 @@
     height: 40px;
     width: 5px;
     background-color: white;
+}
+
+.menu-group {
+    display: inline-flex;
 }

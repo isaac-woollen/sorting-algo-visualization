@@ -15,26 +15,18 @@ export default function Visualizer() {
     function resetData() {
         const array = [];
 
-        for (let i = 0; i < 15; i++) {
+        for (let i = 0; i < 30; i++) {
             array.push(generateRandomNumber(5, 1000));
         }
         setData(array);
     }
 
     return <div className="visualizer">
-        <div className="menu">
-            <div className="menu-item">Generate New Array</div>
-            <div className="menu-divider"></div>
-            <div className="menu-item">Merge Sort</div>
-            <div className="menu-item">Quick Sort</div>
-            <div className="menu-item">Heap Sort</div>
-            <div className="menu-item">Bubble Sort</div>
-        </div>
         {/* <button onClick={handleClick} className="container">Button</button> */}
         <div className="data-container">
             {data.map((value, index) => {
                 let height = String(value / 2) + "px"
-                return <div className="data-bar" style={{ paddingBottom: height }}>{value}</div>
+                return <div className="data-bar" style={{ height: height }}></div>
             })}
         </div>
     </div>
