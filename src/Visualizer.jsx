@@ -16,7 +16,7 @@ export default function Visualizer() {
         const array = [];
 
         for (let i = 0; i < 30; i++) {
-            array.push(generateRandomNumber(5, 1000));
+            array.push(generateRandomNumber(5, 700));
         }
         setData(array);
     }
@@ -25,7 +25,7 @@ export default function Visualizer() {
         {/* <button onClick={handleClick} className="container">Button</button> */}
         <div className="data-container">
             {data.map((value, index) => {
-                let height = String(value / 2) + "px"
+                let height = String(value) + "px"
                 return <div className="data-bar" style={{ height: height }}></div>
             })}
         </div>

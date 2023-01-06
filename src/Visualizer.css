@@ -2,7 +2,7 @@
     font-size: small;
     color: rgb(0, 0, 147);
     margin: .3rem;
-    background-color: rgb(255, 236, 131);
+    background-color: rgb(245, 201, 28);
     width: 100%;
     text-align: center;
 }
@@ -37,3 +37,4 @@
 .menu-group {
     display: inline-flex;
 }
+
