@@ -1,0 +1,24 @@
+.Menu {
+    color: rgb(19, 19, 19);
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.item {
+    cursor: pointer;
+    background-color: rgb(246, 243, 233);
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.item-reset{
+    cursor: pointer;
+    color: rgb(246, 243, 233);
+    background-color: rgb(243, 82, 82);
+    padding: 8px;
+    border-radius: 25px;
+}

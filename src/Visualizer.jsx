@@ -16,7 +16,7 @@ export default function Visualizer() {
         const array = [];
 
         for (let i = 0; i < 30; i++) {
-            array.push(generateRandomNumber(5, 700));
+            array.push(generateRandomNumber(10, 700));
         }
         setData(array);
     }

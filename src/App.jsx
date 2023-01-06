@@ -1,6 +1,5 @@
 import './App.css';
-import './Visualizer';
-import './Menu';
+import Menu from './Menu';
 import Visualizer from './Visualizer';
 
 function App() {
